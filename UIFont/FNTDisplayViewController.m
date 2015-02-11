@@ -17,10 +17,14 @@
 @property (weak, nonatomic) IBOutlet UILabel *number;
 @property (weak, nonatomic) IBOutlet UILabel *japanese;
 @property (weak, nonatomic) IBOutlet UILabel *chinese;
+@property (weak, nonatomic) IBOutlet UILabel *thai;
 @property (weak, nonatomic) IBOutlet UILabel *fontNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *fontSizeLabel;
 @property (nonatomic, strong) UIFont *font;
 @end
+
+
+#define kLabelVerticalSpacing       20.f
 
 
 @implementation FNTDisplayViewController
@@ -100,19 +104,21 @@
     [self.number        setFont:self.font];
     [self.japanese setFont:self.font];
     [self.chinese setFont:self.font];
-
+    [self.thai setFont:self.font];
+    
     [self.korean sizeToFit];
     [self.upperCase sizeToFit];
     [self.lowerCase sizeToFit];
     [self.number sizeToFit];
     [self.japanese sizeToFit];
     [self.chinese sizeToFit];
+    [self.thai sizeToFit];
 
     [UIView animateWithDuration:0.25f animations:^{
         [self.scrollView layoutIfNeeded];
     } completion:^(BOOL finished) {
         if (finished) {
-            CGFloat sHeight = 10.f + CGRectGetHeight(self.korean.frame) + 10.f + CGRectGetHeight(self.upperCase.frame) + 10.f + CGRectGetHeight(self.lowerCase.frame) + 10.f + CGRectGetHeight(self.number.frame) + 10.f + CGRectGetHeight(self.japanese.frame) + 10.f + CGRectGetHeight(self.chinese.frame) + 50.f;
+            CGFloat sHeight = 10.f + CGRectGetHeight(self.korean.frame) + kLabelVerticalSpacing + CGRectGetHeight(self.upperCase.frame) + kLabelVerticalSpacing + CGRectGetHeight(self.lowerCase.frame) + kLabelVerticalSpacing + CGRectGetHeight(self.number.frame) + kLabelVerticalSpacing + CGRectGetHeight(self.japanese.frame) + kLabelVerticalSpacing + CGRectGetHeight(self.chinese.frame) + CGRectGetHeight(self.thai.frame) + 90.f;
 
             CGSize contentSize = self.scrollView.contentSize;
             contentSize.height = MAX(CGRectGetHeight(self.scrollView.frame), sHeight);
