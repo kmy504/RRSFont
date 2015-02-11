@@ -39,15 +39,16 @@
 		32BD73D6189F578F0069F201 /* FNTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD73D3189F578F0069F201 /* FNTMainViewController.m */; };
 		32BD73D7189F578F0069F201 /* FNTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32BD73D4189F578F0069F201 /* FNTMainViewController.xib */; };
 		32BD73D8189F578F0069F201 /* FNTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32BD73D4189F578F0069F201 /* FNTMainViewController.xib */; };
+		8EB001391A78BD7400BBB87B /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB001381A78BD7400BBB87B /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		32BD73C0189F576C0069F201 /* PBXContainerItemProxy */ = {
+		8EB0013C1A78BF7300BBB87B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 32BD7398189F576C0069F201 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 32BD739F189F576C0069F201;
-			remoteInfo = UIFont;
+			remoteInfo = Font;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,7 +62,6 @@
 		325E2AFC191A183F0016AFAD /* FNTFontSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNTFontSizeViewController.h; sourceTree = "<group>"; };
 		325E2AFD191A183F0016AFAD /* FNTFontSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNTFontSizeViewController.m; sourceTree = "<group>"; };
 		325E2AFE191A183F0016AFAD /* FNTFontSizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FNTFontSizeViewController.xib; sourceTree = "<group>"; };
-		325E2B0A191B206B0016AFAD /* default-icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "default-icon@2x.jpg"; sourceTree = "<group>"; };
 		325E2B0C191B206B0016AFAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		325E2B0D191B206B0016AFAD /* FNTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNTAppDelegate.h; sourceTree = "<group>"; };
 		325E2B0E191B206B0016AFAD /* FNTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNTAppDelegate.m; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		325E2B221920ED910016AFAD /* FNTDisplaySystemFontsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNTDisplaySystemFontsViewController.h; sourceTree = "<group>"; };
 		325E2B231920ED910016AFAD /* FNTDisplaySystemFontsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNTDisplaySystemFontsViewController.m; sourceTree = "<group>"; };
 		325E2B241920ED910016AFAD /* FNTDisplaySystemFontsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FNTDisplaySystemFontsViewController.xib; sourceTree = "<group>"; };
-		32BD73A0189F576C0069F201 /* RFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BD73A0189F576C0069F201 /* Font.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Font.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BD73A3189F576C0069F201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32BD73A5189F576C0069F201 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		32BD73A7189F576C0069F201 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -104,6 +104,7 @@
 		32BD73D2189F578F0069F201 /* FNTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNTMainViewController.h; sourceTree = "<group>"; };
 		32BD73D3189F578F0069F201 /* FNTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNTMainViewController.m; sourceTree = "<group>"; };
 		32BD73D4189F578F0069F201 /* FNTMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FNTMainViewController.xib; sourceTree = "<group>"; };
+		8EB001381A78BD7400BBB87B /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "UIFont/Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +134,6 @@
 		325E2B09191B206B0016AFAD /* UIFont */ = {
 			isa = PBXGroup;
 			children = (
-				325E2B0A191B206B0016AFAD /* default-icon@2x.jpg */,
 				325E2B0B191B206B0016AFAD /* InfoPlist.strings */,
 				325E2B0D191B206B0016AFAD /* FNTAppDelegate.h */,
 				325E2B0E191B206B0016AFAD /* FNTAppDelegate.m */,
@@ -163,6 +163,7 @@
 		32BD7397189F576C0069F201 = {
 			isa = PBXGroup;
 			children = (
+				8EB001381A78BD7400BBB87B /* Launch Screen.xib */,
 				325E2B09191B206B0016AFAD /* UIFont */,
 				32BD73A9189F576C0069F201 /* UIFont */,
 				32BD73C2189F576C0069F201 /* UIFontTests */,
@@ -174,7 +175,7 @@
 		32BD73A1189F576C0069F201 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32BD73A0189F576C0069F201 /* RFont.app */,
+				32BD73A0189F576C0069F201 /* Font.app */,
 				32BD73BB189F576C0069F201 /* UIFontTests.xctest */,
 			);
 			name = Products;
@@ -261,7 +262,7 @@
 			);
 			name = Font;
 			productName = UIFont;
-			productReference = 32BD73A0189F576C0069F201 /* RFont.app */;
+			productReference = 32BD73A0189F576C0069F201 /* Font.app */;
 			productType = "com.apple.product-type.application";
 		};
 		32BD73BA189F576C0069F201 /* UIFontTests */ = {
@@ -275,7 +276,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				32BD73C1189F576C0069F201 /* PBXTargetDependency */,
+				8EB0013D1A78BF7300BBB87B /* PBXTargetDependency */,
 			);
 			name = UIFontTests;
 			productName = UIFontTests;
@@ -292,6 +293,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Camp Mobile";
 				TargetAttributes = {
+					32BD739F189F576C0069F201 = {
+						DevelopmentTeam = 7J8F63QLSA;
+					};
 					32BD73BA189F576C0069F201 = {
 						TestTargetID = 32BD739F189F576C0069F201;
 					};
@@ -322,6 +326,7 @@
 			files = (
 				32BD73AE189F576C0069F201 /* InfoPlist.strings in Resources */,
 				325E2AFA191A14C70016AFAD /* FNTSelectFontViewController.xib in Resources */,
+				8EB001391A78BD7400BBB87B /* Launch Screen.xib in Resources */,
 				32BD73B6189F576C0069F201 /* Images.xcassets in Resources */,
 				3201BB8018B343C100FEDB18 /* FNTDisplayViewController.xib in Resources */,
 				325E2B261920ED910016AFAD /* FNTDisplaySystemFontsViewController.xib in Resources */,
@@ -376,10 +381,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		32BD73C1189F576C0069F201 /* PBXTargetDependency */ = {
+		8EB0013D1A78BF7300BBB87B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 32BD739F189F576C0069F201 /* Font */;
-			targetProxy = 32BD73C0189F576C0069F201 /* PBXContainerItemProxy */;
+			targetProxy = 8EB0013C1A78BF7300BBB87B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -487,10 +492,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIFont/UIFont-Prefix.pch";
 				INFOPLIST_FILE = "UIFont/UIFont-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7BF5CBBB-FA03-43F9-B7A6-4CFB1A87D1E1";
 				WRAPPER_EXTENSION = app;
@@ -501,10 +507,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIFont/UIFont-Prefix.pch";
 				INFOPLIST_FILE = "UIFont/UIFont-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7BF5CBBB-FA03-43F9-B7A6-4CFB1A87D1E1";
 				WRAPPER_EXTENSION = app;
@@ -514,7 +521,7 @@
 		32BD73D0189F576C0069F201 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIFont.app/UIFont";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Font.app/Font";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -536,7 +543,7 @@
 		32BD73D1189F576C0069F201 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIFont.app/UIFont";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Font.app/Font";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

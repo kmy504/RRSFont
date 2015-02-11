@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8EAD7ABD-7814-4C32-8F7E-B08B97AEF88D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIFont</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4CE8F09D28EA3AC259B724E7F4D043A369F763CF</key>
+		<string>https://github.com/kmy504/RRSFont.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIFont.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4CE8F09D28EA3AC259B724E7F4D043A369F763CF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kmy504/RRSFont.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4CE8F09D28EA3AC259B724E7F4D043A369F763CF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4CE8F09D28EA3AC259B724E7F4D043A369F763CF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RRSFont</string>
+		</dict>
+	</array>
+</dict>
+</plist>
